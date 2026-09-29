@@ -6,6 +6,15 @@ A powerful HTTP client for Node.js based on libcurl with browser fingerprinting 
 
 <a name="english"></a>
 
+`Global libs directory not found: /root/woningzoeker/node_modules/curl-cffi/libs. Please run scripts/install.cjs first`
+
+STAPPEN:
+
+1. cd /root/<project naam>/node_modules/curl-cffi
+2. node scripts/install.cjs
+
+Dan gaat ie runnen, vooral nodig als je install is tegengehouden door `1 package has install scripts blocked because they are not covered by allowScripts:`
+
 ## Introduction
 
 curl-cffi is a high-performance HTTP client library for Node.js built on libcurl. It provides synchronous and asynchronous request methods with powerful browser fingerprinting capabilities, making it ideal for web scraping, API testing, and automation tasks that require browser simulation.

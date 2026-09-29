@@ -10,7 +10,7 @@ A powerful HTTP client for Node.js based on libcurl with browser fingerprinting 
 
 STAPPEN:
 
-1. cd /root/<project naam>/node_modules/curl-cffi
+1. cd /root/projectfoldernaam/node_modules/curl-cffi
 2. node scripts/install.cjs
 
 Dan gaat ie runnen, vooral nodig als je install is tegengehouden door `1 package has install scripts blocked because they are not covered by allowScripts:`
